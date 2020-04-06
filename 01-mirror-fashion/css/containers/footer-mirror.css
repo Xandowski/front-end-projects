@@ -1,0 +1,10 @@
+.footer-mirror {
+  color: var(--first-color-light);
+  margin: var(--size-big) 0;
+  padding: var(--size-big) 0;
+}
+
+.footer-mirror >.logofooter{
+  margin-right: var(--size-big);
+  width: 94px;
+}

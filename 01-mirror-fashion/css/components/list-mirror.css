@@ -1,0 +1,7 @@
+.list-mirror{
+  margin: var(--size-small) 0;
+}
+
+.list-mirror >.item{
+  line-height: var(--size-medium);
+}

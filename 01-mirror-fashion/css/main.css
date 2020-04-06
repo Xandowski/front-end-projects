@@ -1,0 +1,24 @@
+/* settings */
+@import 'settings/colors.css';
+@import 'settings/sizes.css';
+
+/* tools */
+
+
+/* Generic */
+@import 'generic/reset.css';
+
+/* Elements */
+@import 'elements/base.css';
+@import 'elements/text.css';
+
+/* Containers objects */
+@import 'containers/footer-mirror.css';
+
+/* Components */
+@import 'components/title-mirror.css';
+@import 'components/subtitle-mirror.css';
+@import 'components/list-mirror.css';
+@import 'components/text-mirror.css';
+@import 'components/distribution-mirror.css';
+@import 'components/img-mirror.css';

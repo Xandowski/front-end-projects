@@ -1,0 +1,12 @@
+.card-mirror {
+  width: 30%;
+  padding: var(--size-very-small);
+}
+
+.card-mirror >.price{
+  text-align: center;
+}
+
+.card-mirror >.photo {
+  width: 100%;
+}

@@ -13,7 +13,12 @@
 @import 'elements/text.css';
 
 /* Containers objects */
+@import 'containers/header-mirror.css';
 @import 'containers/footer-mirror.css';
+@import 'containers/main-mirror.css';
+@import 'containers/search-mirror.css';
+@import 'containers/section-mirror.css';
+@import 'containers/wrapper-cards-mirror.css';
 
 /* Components */
 @import 'components/title-mirror.css';
@@ -22,3 +27,8 @@
 @import 'components/text-mirror.css';
 @import 'components/distribution-mirror.css';
 @import 'components/img-mirror.css';
+@import 'components/hamburguer-menu.css';
+@import 'components/nav-mirror.css';
+@import 'components/wrapper-header.css';
+@import 'components/search-form.css';
+@import 'components/card-mirror.css';

@@ -1,6 +1,8 @@
 :root{
-  --first-color-light: #777;
+  --first-color-light: rgb(155, 155, 155);
   --first-color: #333333;
   --second-color-light: #f2eded;
-  --third-color: #ccc;;
+  --third-color: #ccc;
+  --fourth-color:  #f5dcdc;
+  --fifith-color:  #dcdcf5;
 }

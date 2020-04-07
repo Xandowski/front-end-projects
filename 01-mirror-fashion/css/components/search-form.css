@@ -1,0 +1,34 @@
+.search-form {
+  background-color: var(--first-color-light);
+  height: 50px;
+  padding: 10px;
+}
+
+.search-form >.search {
+  font-weight: bold;
+}
+
+.search-form >.form{
+  display: flex;
+  margin-top: var(--size-very-small);
+}
+
+.search-form >.form >.searchbox{
+  border: none;
+  border-radius: 10px;
+  padding: var(--size-very-small);
+  height: 10px;
+}
+
+.search-form >.form .icon{
+  margin-left: var(--size-very-small);
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: var(--first-color-light);
+  text-indent: -9999px;
+  background-repeat: no-repeat;
+  background-image: url('../../img/search.png');
+  background-size: 100%;
+  border: none;
+}

@@ -3,5 +3,17 @@
 }
 
 .list-mirror >.item{
+  border-bottom: 1px solid var(--first-color-light);
+  font-size: 15px;
   line-height: var(--size-medium);
+  text-align: center;
+  padding: 3px 0;
+}
+
+.list-mirror >.last {
+  border-bottom: 10px solid var(--first-color-light);
+}
+
+.list-mirror >.item >.link{
+  color: var(--first-color);
 }

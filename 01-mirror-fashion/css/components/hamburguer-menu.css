@@ -1,0 +1,29 @@
+.hamburguer-menu{
+  display: inline-block;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.hamburguer-menu >.bar1,
+.hamburguer-menu >.bar2,
+.hamburguer-menu >.bar3 {
+  width: 25px;
+  height: 3px;
+  background-color: var(--first-color);
+  margin: 3px 0;
+  transition: 0.4s;
+}
+
+.-change >.bar1 {
+  -webkit-transform: rotate(-45deg) translate(-7px, 5px);
+  transform: rotate(-45deg) translate(-7px, 3px);
+}
+
+.-change >.bar2 {
+  opacity: 0;
+}
+
+.-change >.bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px, -6px);
+  transform: rotate(45deg) translate(-6px, -3px);
+}

@@ -1,0 +1,7 @@
+.main-mirror {
+  width: 100%;
+}
+
+.main-mirror >.featured{
+  width: 100%;
+}

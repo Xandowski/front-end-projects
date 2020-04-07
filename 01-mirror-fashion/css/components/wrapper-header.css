@@ -1,0 +1,31 @@
+.wrapper-header{
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  position: relative;
+  height: 50px;
+}
+
+.wrapper-header >.wrapper-logo {
+  display: flex;
+  margin-top: 10px
+}
+
+.wrapper-header >.wrapper-logo >.logo-mirror >.logo{
+  margin-top: 5px;
+  width: 80px;
+  height: 25px;
+}
+
+.wrapper-header >.bag {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: var(--size-very-small);
+  margin-right: var(--size-very-small);
+  background-image: url(../../img/sacola.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  font-size: 12px;
+  width: 140px;
+}

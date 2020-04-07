@@ -1,0 +1,19 @@
+.wrapper-cards-mirror {
+  text-align: center;
+}
+
+.wrapper-cards-mirror >.showcase-mirror{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.one{
+  background-color: var(--fourth-color);
+  margin-bottom: var(--size-very-small);
+}
+
+.two{
+  background-color: var(--fifith-color);
+  margin-bottom: var(--size-very-small);
+}

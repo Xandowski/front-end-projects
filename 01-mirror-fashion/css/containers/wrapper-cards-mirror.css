@@ -1,10 +1,13 @@
 .wrapper-cards-mirror {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .wrapper-cards-mirror >.showcase-mirror{
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   width: 100%;
 }
 

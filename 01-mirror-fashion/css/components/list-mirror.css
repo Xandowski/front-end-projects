@@ -17,3 +17,7 @@
 .list-mirror >.item >.link{
   color: var(--first-color);
 }
+
+.list-mirror >.active{
+  background-color: var(--first-color-light);
+}

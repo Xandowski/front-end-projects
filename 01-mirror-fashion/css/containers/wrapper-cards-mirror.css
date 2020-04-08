@@ -4,11 +4,14 @@
   align-items: center;
 }
 
+.wrapper-cards-mirror >.subtitle{
+  margin-top: var(--size-very-small);
+}
+
 .wrapper-cards-mirror >.showcase-mirror{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 100%;
 }
 
 .one{
@@ -20,3 +23,4 @@
   background-color: var(--fifith-color);
   margin-bottom: var(--size-very-small);
 }
+

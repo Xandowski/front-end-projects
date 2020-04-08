@@ -9,3 +9,9 @@
 .main-mirror >.banner-mirror >.featured{
   width: 100%;
 }
+
+@media (min-width: 800px) {
+  .main-mirror{
+    display: flex;
+  }
+}

@@ -4,5 +4,10 @@
   align-items: center;
   flex-direction: column;
   width: 100%;
-  margin-top: var(--size-very-small);
+}
+
+@media (min-width: 800px) {
+  .section-mirror {
+    flex-direction: row;
+  }
 }

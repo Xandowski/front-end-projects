@@ -1,3 +1,9 @@
 .search-mirror {
   margin: var(--size-very-small);
 }
+
+@media (min-width: 800px) {
+  .search-mirror{
+    width: 25%;
+  }
+}

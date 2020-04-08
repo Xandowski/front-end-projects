@@ -21,3 +21,9 @@
 .list-mirror >.active{
   background-color: var(--first-color-light);
 }
+
+@media (min-width: 800px) {
+  .list-mirror >.item {
+    text-align: left;
+  }
+}

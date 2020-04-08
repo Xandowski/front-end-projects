@@ -5,10 +5,10 @@
   $hamburguerMenu.addEventListener('click', function () {
     this.classList.toggle('-change');
 
-    if($navMirror.style.display === 'block') {
-      $navMirror.style.display = 'none';
+    if($navMirror.className === 'nav-mirror') {
+      $navMirror.className += ' -responsive';
     } else{
-      $navMirror.style.display = 'block';
+      $navMirror.className = 'nav-mirror';
     }
   })
 })()

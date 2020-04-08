@@ -27,3 +27,9 @@
   -webkit-transform: rotate(45deg) translate(-6px, -6px);
   transform: rotate(45deg) translate(-6px, -3px);
 }
+
+@media (min-width: 800px) {
+  .hamburguer-menu{
+    display: none;
+  }
+}

@@ -3,7 +3,7 @@
   justify-content: space-between;
   overflow: hidden;
   position: relative;
-  height: 50px;
+  height: 70px;
 }
 
 .wrapper-header >.wrapper-logo {
@@ -18,14 +18,28 @@
 }
 
 .wrapper-header >.bag {
+  background-image: url(../../img/sacola.png);
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   margin-top: var(--size-very-small);
   margin-right: var(--size-very-small);
-  background-image: url(../../img/sacola.png);
   background-repeat: no-repeat;
-  background-position: top right;
+  background-position: center right;
   font-size: 12px;
-  width: 140px;
+  height: 50px;
+  width: 125px;
+}
+
+@media (min-width: 800px) {
+  .wrapper-header {
+    overflow: visible;
+    margin: 0 var(--size-very-small) 0 var(--size-very-small);
+  }
+
+  .wrapper-header >.wrapper-logo >.logo-mirror >.logo{
+    margin-top: 5px;
+    width: 110px;
+    height: 65px;
+  }
 }

@@ -6,6 +6,10 @@
   padding: var(--size-very-small);
 }
 
+.main-mirror >.banner-mirror {
+  width: 100%;
+}
+
 .main-mirror >.banner-mirror >.featured{
   width: 100%;
 }
